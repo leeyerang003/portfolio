@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+/* font-family: 'Noto Serif KR', serif; */
+
+/* COMMON - S */
+* {
+  box-sizing: border-box;
+}
+.hide {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  position: absolute;
+  left: -9999px;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  word-break: break-all;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font: 16px 'Noto Serif KR', serif, 'Pretendard';
+  letter-spacing: -0.05em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: table;
+  table-layout: fixed;
+  width: 700%;
+  height: 100%;
+  table-layout: fixed;
+}
+.section {
+  display: table-cell;
+  position: relative;
+  color: #ffffff;
+  font-size: 24pt;
+}
+/* COMMON - E */

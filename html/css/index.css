@@ -1,0 +1,297 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Noto Serif KR', serif; */
+
+:root {
+  --swiper-theme-color: #111;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  min-width: 1920px;
+  padding: 0 150px;
+  background-color: #eee;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+/***** pofol01-s *****/
+.pofol01 {}
+.pofol01 .pofol01-wrap {
+  display: flex;
+  align-items: end;
+}
+.pofol01 .pofol01-hello {
+  font-weight: 700;
+  font-size: 130px;
+  line-height: 100px;
+  color: #111;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 80px;
+  padding-right: 60px;
+}
+.pofol01 .pofol01-information {}
+.pofol01 .photo {
+  padding: 0 60px;
+  border-left: 5px solid #c24428;
+}
+.pofol01 .photo img {
+  width: 500px;
+  height: 800px;
+  object-fit: cover;
+}
+.pofol01 .pofol01-information-box {
+  margin-top: 50px;
+}
+.pofol01 .pofol01-information-box strong {
+  position: relative;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: #305F72;
+  border-bottom: 2px solid #305F72;
+  padding-bottom: 5px;
+}
+.pofol01-information-box .pofol01-information-box-cont {
+  margin-top: 25px;
+}
+.pofol01-information-box-cont p {
+  font-size: 18px;
+  line-height: 18px;
+  color: #111;
+}
+.pofol01-information-box-cont div {
+  display: flex;
+}
+.pofol01-information-box-cont ul li {
+  font-size: 18px;
+  line-height: 18px;
+  color: #111;
+  margin: 0 15px 10px 0;
+}
+.pofol01-information-box-cont li span {
+  position: relative;
+  margin-right: 22px;
+}
+.pofol01-information-box-cont li span::before {
+  content: "";
+  position: absolute;
+  right: -12px;
+  width: 2px;
+  height: 17px;
+  background-color: #555;
+}
+.pofol01-information-box-cont .story {
+  font-size: 18px;
+  line-height: 30px;
+  color: #111;
+}
+.pofol01-wrap .pofol01-sub {
+  position: absolute;
+  left: 550px;
+  bottom: 180px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #999;
+}
+.pofol01-wrap .pofol01-sub div::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  bottom: 0px;
+  width: 2px;
+  height: 16px;
+  background-color: #999;
+}
+/***** pofol01-e *****/
+
+/***** pofol02~4-s *****/
+.pofol02 {}
+.pofol-box {}
+.pofol-box > div {
+  margin-left: 30px;
+}
+.pofol-box > div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 500px;
+  background-color: #c24428;
+}
+.pofol-box .pofol-box-tit {}
+.pofol-box-tit span {
+  display: block;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333;
+  margin: 0 0 15px 5px;
+}
+.pofol-box-tit strong {
+  display: block;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 85px;
+  color: #111;
+  text-align: left;
+}
+.pofol-box .pofol-box-cont {
+  margin-top: 40px;
+}
+.pofol-box-cont .pofol-box-cont-period {
+  display: flex;
+}
+.pofol-box-cont .pofol-box-cont-period li {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  margin-right: 15px;
+}
+.pofol-box-cont p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555;
+  padding-top: 20px;
+}
+.pofol-box .pofol-box-link {
+  margin-top: 50px;
+}
+.pofol-box-link em {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: #305F72;
+  border-bottom: 2px solid #305F72;
+  padding-bottom: 5px;
+  margin-right: 30px;
+}
+.pofol-box .mockup {
+  width: 1000px;
+  margin: 20px 0 0 auto;
+}
+/***** pofol02~4-e *****/
+
+/***** pofol05-s *****/
+.pofol05 {}
+.pofol05 > div {
+  padding-top: 50px;
+}
+.pofol05 > div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 10px;
+  background-color: #c24428;
+}
+.pofol05 > div > div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.pofol05 .legends {
+  margin-left: auto;
+}
+.md-box {}
+.md-box .md-box-tit {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 15px;
+}
+.md-box .md-box-tit strong {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  color: #111;
+}
+.md-box .md-box-tit span {
+  font-size: 25px;
+  line-height: 40px;
+  color: #999;
+  margin-left: 30px;
+}
+.md-box p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555;
+  margin-bottom: 40px;
+}
+.md-box .md-box-but {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: #305F72;
+  border-bottom: 2px solid #305F72;
+  padding-bottom: 9px;
+}
+.md-box .mcon {
+  margin-left: 30px;
+}
+.pofol05 figure {
+  width: 700px;
+  height: 400px;
+  background-color: #aaa;
+}
+.pofol05 figure img {
+  width: 700px;
+  height: 400px;
+}
+.mobile img {
+  object-fit: cover;
+}
+.legends img {
+  object-fit: fill;
+}
+/***** pofol05-e *****/
+
+/***** pofol06-s *****/
+.pofol06 .pofol06-wrap {}
+.pofol06-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 10px;
+  background-color: #c24428;
+}
+.pofol06-wrap .pofol06-tit {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  color: #111;
+  margin-bottom: 15px;
+}
+.pofol06-wrap .pofol06-tit span {
+  display: block;
+  margin-top: 20px;
+}
+.pofol06-sub {
+  font-size: 25px;
+  line-height: 30px;
+  color: #999;
+  margin-top: 30px;
+  letter-spacing: 0.1em;
+}
+.pofol06-wrap .pofol06-img {}
+.pofol06-img a {
+  display: block;
+  width: 310px;
+  object-fit: cover;
+}
+.pofol06-img .pofol06-pro {
+  margin: 50px 0 50px 200px;
+}
+/***** pofol06-e *****/
